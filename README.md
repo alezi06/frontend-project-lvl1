@@ -18,3 +18,7 @@ Game run **brain-gcd**:
 Game run **brain-progression**:
 
 [![asciicast](https://asciinema.org/a/7TogwTv27OBt4gjDrS1HlhaPd.svg)](https://asciinema.org/a/7TogwTv27OBt4gjDrS1HlhaPd)
+
+Game run **brain-prime**:
+
+[![asciicast](https://asciinema.org/a/8ftSRJMzuH8jkUs84Ho1sK1FK.svg)](https://asciinema.org/a/8ftSRJMzuH8jkUs84Ho1sK1FK)
