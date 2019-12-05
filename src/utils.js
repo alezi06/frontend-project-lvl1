@@ -30,10 +30,20 @@ const gcd = (num1, num2) => {
   return iter(maxNumber, minNumber);
 };
 
+const genProgression = (start, step) => {
+  const array = [];
+  array[0] = start;
+  for (let i = 1; i < 10; i += 1) {
+    array[i] = array[i - 1] + step;
+  }
+  return array;
+};
+
 export {
   getRandomNumber,
   isEven,
   getRandomOperation,
   calculate,
   gcd,
+  genProgression,
 };
