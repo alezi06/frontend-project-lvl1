@@ -1,7 +1,7 @@
 {
   "name": "bgames-az",
   "version": "1.6.0",
-  "description": "",
+  "description": "Brain Games mini games",
   "main": "dist/index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
