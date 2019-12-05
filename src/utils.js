@@ -39,6 +39,19 @@ const genProgression = (start, step) => {
   return array;
 };
 
+const isPrime = (number) => {
+  const iter = (acc) => {
+    if (number % acc === 0 || number === 1) {
+      return false;
+    }
+    if (acc > number / 2) {
+      return true;
+    }
+    return iter(acc + 1);
+  };
+  return iter(2);
+};
+
 export {
   getRandomNumber,
   isEven,
@@ -46,4 +59,5 @@ export {
   calculate,
   gcd,
   genProgression,
+  isPrime,
 };
