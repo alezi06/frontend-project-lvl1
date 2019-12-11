@@ -4,7 +4,7 @@ import getRandomNumber from '../utils';
 
 const message = 'What is the result of the expression?';
 
-const getRandomOperation = () => '+-*'[getRandomNumber(0, 3)];
+const operations = '+-*';
 
 const getCalculatedValue = (first, second, action) => {
   switch (action) {
@@ -22,7 +22,7 @@ const getCalculatedValue = (first, second, action) => {
 const getQuestionAndAnswer = () => {
   const first = getRandomNumber(1, 100);
   const second = getRandomNumber(1, 100);
-  const operation = getRandomOperation();
+  const operation = operations[getRandomNumber(0, operations.length)];
 
   const question = `${first} ${operation} ${second}`;
   const answer = getCalculatedValue(first, second, operation);
