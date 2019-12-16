@@ -3,22 +3,116 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/dbb952037b2615a83a08/maintainability)](https://codeclimate.com/github/alezi06/frontend-project-lvl1/maintainability)
 [![Build Status](https://travis-ci.org/alezi06/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/alezi06/frontend-project-lvl1)
 
-Game run **brain-even**:
+Set of mini games "Brain Games".
 
-[![asciicast](https://asciinema.org/a/TZUksDB1fEAOH5Pzekqsr1GjC.svg)](https://asciinema.org/a/TZUksDB1fEAOH5Pzekqsr1GjC)
+How to install:
 
-Game run **brain-calc**:
+```npm install -g bgames-az ```
 
-[![asciicast](https://asciinema.org/a/pXdDA6qOW8fmQOSzWsIs76xvO.svg)](https://asciinema.org/a/pXdDA6qOW8fmQOSzWsIs76xvO)
+How to start:
 
-Game run **brain-gcd**:
+game **brain-even**
 
-[![asciicast](https://asciinema.org/a/zWTIcyKRJQRYBBUfLXydymMAM.svg)](https://asciinema.org/a/zWTIcyKRJQRYBBUfLXydymMAM)
+```
+$ brain-even
 
-Game run **brain-progression**:
+Welcome to the Brain Games!
+Answer "yes" if the number is even, otherwise answer "no".
 
-[![asciicast](https://asciinema.org/a/7TogwTv27OBt4gjDrS1HlhaPd.svg)](https://asciinema.org/a/7TogwTv27OBt4gjDrS1HlhaPd)
+May I have your name? #enter your username#
+Hello, #username#!
 
-Game run **brain-prime**:
+Question: 15
+Your answer: no
+Correct!
+Question: 6
+Your answer: yes
+Correct!
+Question: 7
+Your answer: no
+Correct!
+Congratulations, #username#!
+```
 
-[![asciicast](https://asciinema.org/a/8ftSRJMzuH8jkUs84Ho1sK1FK.svg)](https://asciinema.org/a/8ftSRJMzuH8jkUs84Ho1sK1FK)
+game **brain-calc**
+
+```
+$ brain-calc
+
+Welcome to the Brain Games!
+What is the result of the expression?
+
+May I have your name? #enter your username#
+Hello, #username#!
+
+Question: 4 + 10
+Your answer: 14
+Correct!
+Question: 25 - 11
+Your answer: 17
+'17' is wrong answer ;(. Correct answer was '14'.
+Let's try again, #username#!
+```
+
+game **brain-gcd**
+
+```
+$ brain-gcd
+
+Welcome to the Brain Games!
+Find the greatest common divisor of given numbers.
+
+May I have your name? #enter your username#
+Hello, #username#!
+
+Question: 25 50
+Your answer: 25
+Correct!
+Question: 100 52
+Your answer: 4
+Correct!
+Question: 3 9
+Your answer: 3
+Correct!
+Congratulations, #username#!
+```
+
+game **brain-progression**
+
+```
+$ brain-progression
+
+Welcome to the Brain Games!
+What number is missing in the progression?
+
+May I have your name? #enter your username#
+Hello, #username#
+
+Question: 5 7 9 11 13 .. 17 19 21 23
+Your answer: 16
+'16' is wrong answer ;(. Correct answer was '15'.
+Let's try again, #username#!
+```
+
+game **brain-prime**
+
+```
+$ brain-prime
+
+Welcome to the Brain Games!
+Answer "yes" if given number is prime. Otherwise answer "no".
+
+May I have your name? #enter your username#
+Hello, #username#
+
+Question: 7
+Your answer: yes
+Correct!
+Question: 5
+Your answer: yes
+Correct!
+Question: 8
+Your answer: yes
+'yes' is wrong answer ;(. Correct answer was 'no'.
+Let's try again, #username#!
+```

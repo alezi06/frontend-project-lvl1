@@ -6,7 +6,7 @@ const message = 'What is the result of the expression?';
 
 const operations = '+-*';
 
-const getCalculatedValue = (first, second, action) => {
+const calculate = (first, second, action) => {
   switch (action) {
     case '+':
       return first + second;
@@ -22,10 +22,10 @@ const getCalculatedValue = (first, second, action) => {
 const getQuestionAndAnswer = () => {
   const first = getRandomNumber(1, 100);
   const second = getRandomNumber(1, 100);
-  const operation = operations[getRandomNumber(0, operations.length)];
+  const operation = operations[getRandomNumber(0, operations.length - 1)];
 
   const question = `${first} ${operation} ${second}`;
-  const answer = getCalculatedValue(first, second, operation);
+  const answer = calculate(first, second, operation);
 
   return cons(question, answer);
 };

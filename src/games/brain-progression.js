@@ -18,7 +18,7 @@ const getProgression = (start, step, length) => {
 const getQuestionAndAnswer = () => {
   const startProgression = getRandomNumber(1, 10);
   const stepProgression = getRandomNumber(1, 10);
-  const hiddenElementPosition = getRandomNumber(1, progressionLength);
+  const hiddenElementPosition = getRandomNumber(0, progressionLength - 1);
 
   const progression = getProgression(startProgression, stepProgression, progressionLength);
 

@@ -1,1 +1,1 @@
-export default (min, max) => parseInt(Math.random() * (max - min) + min, 10);
+export default (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
