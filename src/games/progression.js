@@ -22,7 +22,7 @@ const getQuestionAndAnswer = () => {
 
   const progression = getProgression(startProgression, stepProgression, progressionLength);
 
-  const answer = progression[hiddenElementPosition];
+  const answer = String(progression[hiddenElementPosition]);
   const question = progression.join(' ').replace(String(answer), '..');
 
   return cons(question, answer);

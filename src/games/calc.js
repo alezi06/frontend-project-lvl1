@@ -25,7 +25,7 @@ const getQuestionAndAnswer = () => {
   const operation = operations[getRandomNumber(0, operations.length - 1)];
 
   const question = `${first} ${operation} ${second}`;
-  const answer = calculate(first, second, operation);
+  const answer = String(calculate(first, second, operation));
 
   return cons(question, answer);
 };

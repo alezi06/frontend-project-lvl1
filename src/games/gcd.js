@@ -22,7 +22,7 @@ const getQuestionAndAnswer = () => {
   const second = getRandomNumber(10, 100);
 
   const question = `${first} ${second}`;
-  const answer = getCommonDivisor(first, second);
+  const answer = String(getCommonDivisor(first, second));
 
   return cons(question, answer);
 };

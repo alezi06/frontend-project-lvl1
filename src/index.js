@@ -20,7 +20,7 @@ export default (message, getGameData) => {
 
     const playerAnswer = readlineSync.question('Your answer: ');
 
-    if (String(answer) !== playerAnswer) {
+    if (answer !== playerAnswer) {
       console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
